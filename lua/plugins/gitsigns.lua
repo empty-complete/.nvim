@@ -1,8 +1,8 @@
 return {
 	{
-		'https://github.com/lewis6991/gitsigns.nvim',
+		"https://github.com/lewis6991/gitsigns.nvim",
 		config = function()
-			require('gitsigns').setup()
-		end
-	}
-} 
+			require("gitsigns").setup()
+		end,
+	},
+}
